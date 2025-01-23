@@ -40,6 +40,7 @@
     width: 565px;
     display: flex;
     margin: auto;
+    position: relative;
 }
 .boxes img{
     margin: 50px 50px;
@@ -47,4 +48,13 @@
 .title img{
 padding: 20px 20px;
 height : 50px;
+}
+.line {
+    position: absolute;
+    height: 8px;
+    width: 0; 
+    transform-origin: left;
+    transition: all 0.3s ease-in-out; 
+    border-radius: 4px;
+    z-index: 1; 
 }
